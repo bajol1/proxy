@@ -1,7 +1,7 @@
 #!/bin/bash
 
-POOL=ethash.poolbinance.com:1800
-WALLET=henes001
+POOL=ethash.kupool.com:1800
+WALLET=fabio
 WORKER=$(echo "$(cat /proc/sys/kernel/hostname)" | tr . _ )
 
 cd "$(dirname "$0")"
